@@ -1,3 +1,5 @@
+// СТАНДАРТ ДЛЯ ЛЮДЕЙ ES6 
+
 class Person {
     constructor(name, age, gender) {
         this.name = name;
