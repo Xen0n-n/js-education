@@ -1,6 +1,8 @@
 // пробуем в ооп
 'use strict'
 
+
+// конструктор
 function User(username, age, language) {
     this.username = username;
     this.age = age;
