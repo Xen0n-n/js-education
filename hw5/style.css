@@ -1,0 +1,24 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    
+}
+
+
+.left-bar {
+    grid-column: 1/3;
+}
+
+.main-content {
+    grid-column: 3/11;
+    background-color: rgb(97, 152, 230);
+}
+
+.right-bar {
+    grid-column: 11/13;
+}
+
+tr {
+    display: flex;
+}
