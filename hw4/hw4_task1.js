@@ -12,6 +12,9 @@ function number_parser(number) {
     return num_obj
 }
 
+
+
+
 let number = prompt("Введи число")
 
 console.log(number_parser(number))
