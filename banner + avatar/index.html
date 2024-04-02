@@ -15,13 +15,16 @@
     
     <div class="main-container">
         <div class="main-content" id="main-content">
-            <div class="text-center">
-                <canvas id="cv"></canvas>
+            <div class="text-center" id="cv-container">
+                <canvas id="canvas"></canvas>
                 <!-- <img src="source/images/баннер_участника8ver.jpg" class="rounded thumb-banner" alt="..."> -->
             </div>
             <div>
                 <label for="formFileLg" class="form-label">Поле для выбора файла</label>
-                <input class="form-control form-control-lg" id="upload" type="file">
+                <input class="form-control form-control-lg" id="upload" type="file" accept="image/png, image/jpeg">
+            </div>
+            <div>
+                <input class="button" id="download" type="button" value="скачать">
             </div>
         </div>
     </div>
