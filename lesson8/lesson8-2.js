@@ -9,4 +9,5 @@ let user1 = {
 };
 
 addInfo.call(user1, '30', 'developer');
+// addInfo.apply(user1, ['30', 'developer']); // еще один способ. работает также, как и call, но аргументы передаются после объекта в виде массива
 console.log(user1);
